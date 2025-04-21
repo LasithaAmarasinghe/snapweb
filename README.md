@@ -38,20 +38,5 @@ On Android open `http://<snapserver host>:1780` in Chrome and select in the menu
 
 ## Screenshot
 
-Screenshot is taken on a Pixel 7 emulation in Chrome DevTools
+![image](https://github.com/user-attachments/assets/558402b8-949f-454f-a9cf-36d2b1cce0de)
 
-![Snapweb-Dark](https://raw.githubusercontent.com/badaix/snapweb/master/snapweb_dark.png#gh-dark-mode-only)
-![Snapweb-Light](https://raw.githubusercontent.com/badaix/snapweb/master/snapweb_light.png#gh-light-mode-only)
-
-## Contributing
-
-Since my time and my web development skills are limited, pull requests are
-highly appreciated. Please check the list of
-[open issues](https://github.com/badaix/snapweb/issues).\
-Branch from the `develop` branch and ensure it is up to date with the current
-`develop` branch before submitting your pull request.
-
-High prio issues:
-
-- Missing opus support [#8](https://github.com/badaix/snapweb/issues/8)
-- Missing Vorbis support [#14](https://github.com/badaix/snapweb/issues/14)
