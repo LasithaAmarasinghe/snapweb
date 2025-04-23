@@ -308,14 +308,6 @@ export default function SnapWeb() {
     }
   }, [isPlaying]);
 
-  useEffect(() => {
-    if (isConnected) {
-      setIsPlaying(true); 
-    } else {
-      setIsPlaying(false);
-    }
-  }, [isConnected]);
-
   function list() {
     return (
       <Box
@@ -368,7 +360,7 @@ export default function SnapWeb() {
       <CssBaseline />
       <div className="SnapWeb">
       <div style={backgroundStyle}></div>
-        {/* {isConnected ?
+        {isConnected ?
           <IconButton
           size="large"
           edge="start"
@@ -379,7 +371,7 @@ export default function SnapWeb() {
           >
             {isPlaying ? <StopIcon fontSize="large" /> : <PlayArrowIcon fontSize="large" />}
           </IconButton>
-          : null} */}
+          : null}
         
         <Drawer
           anchor="top"
