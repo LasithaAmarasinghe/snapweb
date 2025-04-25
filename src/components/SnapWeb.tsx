@@ -12,7 +12,7 @@ import { createTheme, ThemeProvider } from '@mui/material/styles';
 import CssBaseline from '@mui/material/CssBaseline';
 import silence from '../assets/10-seconds-of-silence.mp3';
 import snapcast512 from '../assets/snapcast-512.png';
-import backgroundImage from '../assets/AURA_1.png'; 
+import backgroundImage from '../assets/AURA_2.jpg'; 
 
 
 const lightTheme = createTheme({
@@ -366,10 +366,19 @@ export default function SnapWeb() {
           edge="start"
           color="inherit"
           aria-label="menu"
-          sx={{ mr: 2 }}
+          sx={{
+            position: 'absolute', // Position the button absolutely
+            top: '5rem',          // Add some spacing from the top
+            left: '50%',          // Center horizontally
+            transform: 'translateX(-50%)', // Adjust to center the button
+            color: 'white',
+            width: '10rem',
+            height: '10rem',
+          }}
             onClick={(_) => { setIsPlaying(!isPlaying); }}
           >
-            {isPlaying ? <StopIcon fontSize="large" /> : <PlayArrowIcon fontSize="large" />}
+              {isPlaying ? <StopIcon fontSize="large" sx={{ fontSize: '20rem' }} /> : <PlayArrowIcon fontSize="large" sx={{ fontSize: '20rem' }} />}
+
           </IconButton>
           : null}
         
