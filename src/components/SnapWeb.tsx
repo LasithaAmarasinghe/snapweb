@@ -112,7 +112,7 @@ export default function SnapWeb() {
     left: 0,
     width: '100%',
     height: '100%',
-    backgroundImage: `url(${backgroundImage})`,
+    //backgroundImage: `url(${backgroundImage})`,
     backgroundSize: 'cover',
     backgroundPosition: 'center',
     backgroundRepeat: 'no-repeat',
