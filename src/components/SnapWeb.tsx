@@ -12,7 +12,7 @@ import { createTheme, ThemeProvider } from '@mui/material/styles';
 import CssBaseline from '@mui/material/CssBaseline';
 import silence from '../assets/10-seconds-of-silence.mp3';
 import snapcast512 from '../assets/snapcast-512.png';
-import backgroundImage from '../assets/AURA_2.jpg'; 
+import backgroundImage from '../assets/AURA_LOGO.jpg'; 
 
 
 const lightTheme = createTheme({
@@ -371,7 +371,7 @@ export default function SnapWeb() {
             top: '5rem',          // Add some spacing from the top
             left: '50%',          // Center horizontally
             transform: 'translateX(-50%)', // Adjust to center the button
-            color: 'white',
+            color: 'black',
             width: '10rem',
             height: '10rem',
           }}
