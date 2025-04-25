@@ -368,7 +368,7 @@ export default function SnapWeb() {
           aria-label="menu"
           sx={{
             position: 'absolute', // Position the button absolutely
-            top: '5rem',          // Add some spacing from the top
+            top: '6rem',          // Add some spacing from the top
             left: '50%',          // Center horizontally
             transform: 'translateX(-50%)', // Adjust to center the button
             color: 'black',
